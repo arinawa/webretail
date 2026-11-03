@@ -11,3 +11,6 @@ Website statis siap deploy ke Vercel.
 6. Klik **Deploy**.
 
 Tidak perlu framework atau proses build untuk versi HTML statis ini.
+
+## Billing integration starter
+Lihat `README-BILLING.md` untuk setup MySQL, konfigurasi Vercel, dan callback Duitku. Jalankan `database/schema.sql` sebelum mengaktifkan callback. Callback URL: `https://yanzahnet.vercel.app/api/duitku/callback`.
